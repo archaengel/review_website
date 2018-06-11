@@ -55,10 +55,12 @@ p{
   box-sizing: border-box;
   display: block;
   height: 10vh;
-  left: -30px;
+  left: 50%;
   padding-top: 10px;
   position: relative;
   text-align: center;
+  /*top: 50%;*/
+  transform: translate(-50%, -50%);
   width: 10vh;
 }
 .header-logo:hover,
@@ -69,8 +71,9 @@ p{
   width: 4.3vh;
 }
 .header-nav {
-  float: right;
-  padding: 5vh 60px 0 0;
+  display: block;
+  /*float: right;*/
+  /*padding: 5vh 60px 0 0;*/
 }
 .header-nav > li {
   display: inline-block;
@@ -85,7 +88,7 @@ p{
   color: #fff;
 }
 .header-nav > li:first-child a {
-  color: #ed6e2f;
+  color: #666;
 }
 .header-nav > li:first-child a:hover {
   color: #fff;
@@ -100,7 +103,7 @@ p{
 }
 .nav-links a:hover,
 .nav-links a:active {
-  color: #ed6e2f;
+  color: #666;
 }
 
 
@@ -287,14 +290,14 @@ p{
 }
 .hero-content .social-link {
   background-color: rgba(255, 255, 255, 0.8);
-  color: #557c83;
+  color: #666;
 }
 .hero-content .social-link:hover {
   background-color: #000;
   color: #fff;
 }
 .hero-home {
-  background-image: url(/images/shark.jpg);
+  background-image: url(/images/graffiti.jpg);
   background-position: center top;
 }
 .hero-social {
@@ -334,7 +337,7 @@ p{
 
 /*HOMEPAGE STYLES*/
 .callout-copy {
-  flex: 0 0 45em;
+  flex: 0 0 40em;
   font-size: 0.8rem;
   padding: 0 3vw;
 }
